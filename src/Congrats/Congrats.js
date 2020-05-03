@@ -1,5 +1,5 @@
 import React from 'react';
-export default (props) => {
+export default props => {
     if(props.success) {
         return (
             <div data-test="component-congrats">

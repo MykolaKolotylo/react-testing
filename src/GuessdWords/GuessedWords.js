@@ -19,6 +19,7 @@ const GuessedWords = props => {
         contents = (
             <div data-test="guessed-words">
                 <h3>Guessed Words</h3>
+                <div>
                 <table>
                     <thead>
                         <tr>
@@ -30,6 +31,7 @@ const GuessedWords = props => {
                         {guessedWordsRow}
                     </tbody>
                 </table>
+                </div>
             </div>
         )
     }
